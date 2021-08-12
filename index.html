@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="range-container">
+        <div>
+            <label for="speed">Speed:</label>
+            <input id="speed" max="99" min="1" type="range" value="50">
+        </div>
+        <div>
+            <label for="numElem">Number of Elements:</label>
+            <input id="numElem" max="600" min="50" type="range" value="300">
+        </div>
+        <div>
+            <label for="blur">Blur Effect:</label>
+            <input id="blur" max="90" min="0" type="range" value="0">
+        </div>
+    </div>
+    <div class="button-container">
+        <button id="shuffle">SHUFFLE</button>
+        <button id="bubbleSort">Bubble Sort</button>
+        <button id="selectionSort">Selection Sort</button>
+        <button id="insertionSort">Insertion Sort</button>
+        <button id="mergeSort">Merge Sort</button>
+        <button id="quickSort">Quick Sort</button>
+    </div>
+</header>
+<main>
+    <canvas id="canvas1"></canvas>
+    <script src="particle.js"></script>
+    <script src="main.js"></script>
+</main>
+
+</body>
+</html>
